@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <title> Contact Form </title>
+<body>
+
+<div>
+<h2>Contact Form</h2>
+<fieldset>
+     <legend size="50px">Personalia:</legend>
+     <label for="uname"> Username: </label>
+     <input type="text" id="uname" name="uname" required><br><br>
+     <label for="eaddr"> Email address: </label>
+     <input type="text" id="eaddr" name="eaddr" required><br><br>
+     <label for="uissue"> User issue: </label>
+     <select id="uissue" name="uissue" >
+       <option value="Query"> Query </option>
+       <option value="Comment"> Comment </option>
+       <option value="Feedback"> Feedback </option>
+     </select> <br><br>
+     <input type="submit" value="Submit">
+  </fieldset>
+</div>
+
+<div>
+  <h2>Your Input</h2>
+  <p id="demo">hey</p>
+  <button type="button"
+  onclick='document.getElementById("demo").innerHTML ="not updated yet"'>
+  click to display your details </button>
+
+</div>
+
+</body>
+</html>
